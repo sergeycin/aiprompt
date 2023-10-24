@@ -1,0 +1,16 @@
+/* In your CSS/SCSS file */
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+body{
+    overflow-x: hidden;
+    width: 100%;
+}
+
+@media(max-width: 567px){
+    .central-content{
+        display: block !important;
+        margin: 0 auto !important;
+    }
+}
